@@ -1,0 +1,26 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "Babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel js/Main.js -o build/build.js",
+    "start": "http-server -p 8080"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Viraj Patel",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.10.0"
+  },
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.24.1"
+  }
+}
